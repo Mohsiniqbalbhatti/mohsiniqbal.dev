@@ -3,40 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, MeshDistortMaterial, Stars, PerspectiveCamera } from '@react-three/drei';
 import * as THREE from 'three';
 
-// Fix: Add type definitions for React Three Fiber elements to resolve JSX errors
-// We augment both global JSX and React.JSX to support various TypeScript/React configurations
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      mesh: any;
-      sphereGeometry: any;
-      points: any;
-      bufferGeometry: any;
-      bufferAttribute: any;
-      pointsMaterial: any;
-      ambientLight: any;
-      directionalLight: any;
-      pointLight: any;
-    }
-  }
-}
-
-declare module 'react' {
-  namespace JSX {
-    interface IntrinsicElements {
-      mesh: any;
-      sphereGeometry: any;
-      points: any;
-      bufferGeometry: any;
-      bufferAttribute: any;
-      pointsMaterial: any;
-      ambientLight: any;
-      directionalLight: any;
-      pointLight: any;
-    }
-  }
-}
-
 const AnimatedSphere = () => {
   const meshRef = useRef<THREE.Mesh>(null);
 

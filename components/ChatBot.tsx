@@ -140,7 +140,7 @@ const ChatBot: React.FC = () => {
                   <Send className="w-4 h-4" />
                 </button>
               </div>
-              <p className="text-[10px] text-gray-500 mt-2 text-center">Powered by Google Gemini 2.5</p>
+              <p className="text-[10px] text-gray-500 mt-2 text-center">Powered by Franky's Cola</p>
             </div>
           </motion.div>
         )}
