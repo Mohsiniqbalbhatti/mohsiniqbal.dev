@@ -73,7 +73,7 @@ const Projects: React.FC<ProjectsProps> = ({ id = "projects" }) => {
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-gray-400 text-sm mb-4 h-12 line-clamp-2">
+                <p className="text-gray-400 text-sm mb-4 line-clamp-3">
                   {project.description}
                 </p>
 
