@@ -1,5 +1,6 @@
 import { Project, Skill, Experience } from './types';
 
+
 export const NAME = "Mohsin Iqbal";
 export const TITLE = "Creative Software Engineer";
 export const BIO_SHORT = "I build immersive web experiences and intelligent systems.";
@@ -41,7 +42,7 @@ export const PROJECTS: Project[] = [
     title: "Nebula Dashboard",
     description: "A real-time data visualization platform for crypto analytics using D3 and WebGL.",
     tech: ["React", "D3.js", "WebGL", "Node.js"],
-    image: "https://picsum.photos/600/400?random=1",
+    image: "assets/adams.png",
     link: "#"
   },
   {
