@@ -1,4 +1,7 @@
 import { Project, Skill, Experience } from './types';
+import adamsImage from './assets/adams.png';
+import mofaImage from './assets/mofa.png';
+import smmImage from './assets/smm.png';
 
 
 export const NAME = "Mohsin Iqbal";
@@ -39,27 +42,27 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Nebula Dashboard",
-    description: "A real-time data visualization platform for crypto analytics using D3 and WebGL.",
-    tech: ["React", "D3.js", "WebGL", "Node.js"],
-    image: "assets/adams.png",
-    link: "#"
+    title: "AdamsConsultant.com",
+    description: "Built a sleek, responsive static website for a study abroad consultancy using Next.js, TypeScript, and Tailwind CSS. Integrated Email.js for contact form automation and deployed on Vercel. The site is 100% mobile-responsive with modern, clean UI across all devices.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Email.js", "Vercel"],
+    image: adamsImage,
+    link: "https://adamsconsultant.com/"
   },
   {
     id: 2,
-    title: "Echo AI Chat",
-    description: "A multimodal chat interface leveraging Gemini Pro for image and text analysis.",
-    tech: ["TypeScript", "Gemini API", "Tailwind"],
-    image: "https://picsum.photos/600/400?random=2",
-    link: "#"
+    title: "MOFA Attestation Services",
+    description: "Developed a high-performance, SEO-friendly website for a professional document attestation company. Built a server-side rendered (SSR) application using Next.js with a fast, intuitive user journey and multi-step 'Get Quote' form. Achieves excellent performance scores and ranks well on search engines.",
+    tech: ["Next.js", "React", "Tailwind CSS", "SSR", "SEO"],
+    image: mofaImage,
+    link: "https://mofaapostille.com/"
   },
   {
     id: 3,
-    title: "Voxel Architect",
-    description: "Browser-based 3D voxel editor built with React Three Fiber.",
-    tech: ["R3F", "Zustand", "IndexedDB"],
-    image: "https://picsum.photos/600/400?random=3",
-    link: "#"
+    title: "SMM Panel",
+    description: "Developed a full-featured SMM Panel for a client now earning $200+/mo through social media engagement services. The MERN-stack platform features a clean admin dashboard, order management, secure JWT authentication, funds & payment handling, and real-time order tracking. Fully responsive design ensures usability across devices.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+    image: smmImage,
+    link: "https://github.com/Mohsiniqbalbhatti/smm"
   }
 ];
 
