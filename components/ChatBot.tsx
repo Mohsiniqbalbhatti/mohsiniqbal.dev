@@ -7,7 +7,7 @@ import { ChatMessage } from '../types';
 const ChatBot: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: "Hi! I'm Alex's Digital Twin. Ask me anything about his work or skills!", timestamp: new Date() }
+    { role: 'model', text: "Hi! I'm Mohsin's Digital Twin. Ask me anything about his work or skills!", timestamp: new Date() }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
