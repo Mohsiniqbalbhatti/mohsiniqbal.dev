@@ -8,11 +8,11 @@ export const BIO_LONG = `I am a passionate Full Stack Engineer specializing in R
 export const SKILLS: Skill[] = [
   { name: 'React / Next.js', level: 95, category: 'Frontend' },
   { name: 'TypeScript', level: 90, category: 'Frontend' },
-  { name: 'Three.js / R3F', level: 85, category: 'Frontend' },
+  { name: 'Three.js / FramerMotion', level: 85, category: 'Frontend' },
   { name: 'Node.js', level: 80, category: 'Backend' },
-  { name: 'Python', level: 75, category: 'Backend' },
-  { name: 'Gemini API', level: 88, category: 'AI' },
-  { name: 'Docker', level: 70, category: 'Tools' },
+  { name: 'MongoDB/Postgres', level: 75, category: 'DataBase' },
+  { name: 'GoLang', level: 88, category: 'Backend' },
+  { name: 'Docker/AWS', level: 70, category: 'Tools' },
 ];
 
 export const PROJECTS: Project[] = [
