@@ -6,13 +6,33 @@ export const BIO_SHORT = "I build immersive web experiences and intelligent syst
 export const BIO_LONG = `I am a passionate Full Stack Engineer specializing in React, 3D web technologies, and AI integration. With over 5 years of experience, I bridge the gap between functional engineering and creative design, delivering performant applications that leave a lasting impression.`;
 
 export const SKILLS: Skill[] = [
-  { name: 'React / Next.js', level: 95, category: 'Frontend' },
-  { name: 'TypeScript', level: 90, category: 'Frontend' },
-  { name: 'MongoDB / Postgres', level: 85, category: 'DataBase' },
-  { name: 'Node.js', level: 80, category: 'Backend' },
-  { name: 'Three.js / FramerMotion', level: 85, category: 'Frontend' },
-  { name: 'GoLang', level: 88, category: 'Backend' },
-  { name: 'Docker / AWS', level: 70, category: 'Tools' },
+  // Top / Core Skills
+  { name: 'React', level: 98, category: 'Frontend', icon: 'https://cdn.simpleicons.org/react/61DAFB' },
+  { name: 'Go', level: 60, category: 'Backend', icon: 'https://cdn.simpleicons.org/go/00ADD8' },
+  { name: 'TypeScript', level: 95, category: 'Frontend', icon: 'https://cdn.simpleicons.org/typescript/3178C6' },
+  { name: 'Node.js', level: 90, category: 'Backend', icon: 'https://cdn.simpleicons.org/nodedotjs/339933' },
+
+  // Cloud & Tools
+  { name: 'Docker', level: 85, category: 'Tools', icon: 'https://cdn.simpleicons.org/docker/2496ED' },
+  { name: 'AWS', level: 80, category: 'Tools', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+  { name: 'Linux', level: 85, category: 'Tools', icon: 'https://cdn.simpleicons.org/linux/FCC624' },
+
+  // Frontend
+  { name: 'Next.js', level: 95, category: 'Frontend', icon: 'https://cdn.simpleicons.org/nextdotjs/white' },
+  { name: 'Three.js', level: 80, category: 'Frontend', icon: 'https://cdn.simpleicons.org/threedotjs/white' },
+  { name: 'Tailwind', level: 98, category: 'Frontend', icon: 'https://cdn.simpleicons.org/tailwindcss/06B6D4' },
+  { name: 'HTML5', level: 100, category: 'Frontend', icon: 'https://cdn.simpleicons.org/html5/E34F26' },
+  { name: 'CSS3', level: 98, category: 'Frontend', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+
+  // Backend
+  { name: 'PostgreSQL', level: 88, category: 'Backend', icon: 'https://cdn.simpleicons.org/postgresql/4169E1' },
+  { name: 'MongoDB', level: 90, category: 'Backend', icon: 'https://cdn.simpleicons.org/mongodb/47A248' },
+  { name: 'GraphQL', level: 85, category: 'Backend', icon: 'https://cdn.simpleicons.org/graphql/E10098' },
+  { name: 'Python', level: 75, category: 'Backend', icon: 'https://cdn.simpleicons.org/python/3776AB' },
+  
+  // Other
+  { name: 'Git', level: 95, category: 'Tools', icon: 'https://cdn.simpleicons.org/git/F05032' },
+  { name: 'NestJS', level: 85, category: 'Backend', icon: 'https://cdn.simpleicons.org/nestjs/E0234E' },
 ];
 
 export const PROJECTS: Project[] = [

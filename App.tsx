@@ -6,10 +6,17 @@ import Contact from './components/Contact';
 import ChatBot from './components/ChatBot';
 import Experience from './components/Experience';
 import { NAME, TITLE, BIO_SHORT, SOCIAL_LINKS } from './constants';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -28,6 +35,12 @@ function App() {
   return (
     <div className="relative w-full min-h-screen bg-[#050505] text-white selection:bg-indigo-500/30">
       
+      {/* Scroll Progress Bar */}
+      <motion.div
+        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 origin-left z-[100]"
+        style={{ scaleX }}
+      />
+
       {/* Fixed Background 3D Scene */}
       <Scene />
 
@@ -122,7 +135,7 @@ function App() {
         {/* Footer */}
         <footer className="py-12 border-t border-white/10 bg-black text-center">
             <p className="text-gray-500 text-sm">
-                &copy; {new Date().getFullYear()} {NAME}. Built with React, Three.js & Gemini.
+                &copy; {new Date().getFullYear()} {NAME}. Built with vibe coding & snacks
             </p>
         </footer>
       </div>

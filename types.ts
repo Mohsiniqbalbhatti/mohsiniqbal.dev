@@ -1,3 +1,4 @@
+
 export interface Project {
   id: number;
   title: string;
@@ -11,6 +12,7 @@ export interface Skill {
   name: string;
   level: number; // 0-100
   category: 'Frontend' | 'Backend' | 'Tools' | 'AI';
+  icon: string;
 }
 
 export interface Experience {
