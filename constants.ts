@@ -46,7 +46,9 @@ export const PROJECTS: Project[] = [
     description: "Built a sleek, responsive static website for a study abroad consultancy using Next.js, TypeScript, and Tailwind CSS. Integrated Email.js for contact form automation and deployed on Vercel. The site is 100% mobile-responsive with modern, clean UI across all devices.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Email.js", "Vercel"],
     image: adamsImage,
-    link: "https://adamsconsultant.com/"
+    link: "https://adamsconsultant.com/",
+    github: "#"
+
   },
   {
     id: 2,
@@ -54,7 +56,9 @@ export const PROJECTS: Project[] = [
     description: "Developed a high-performance, SEO-friendly website for a professional document attestation company. Built a server-side rendered (SSR) application using Next.js with a fast, intuitive user journey and multi-step 'Get Quote' form. Achieves excellent performance scores and ranks well on search engines.",
     tech: ["Next.js", "React", "Tailwind CSS", "SSR", "SEO"],
     image: mofaImage,
-    link: "https://mofaapostille.com/"
+    link: "https://mofaapostille.com/",
+    github: "#"
+
   },
   {
     id: 3,
@@ -62,7 +66,8 @@ export const PROJECTS: Project[] = [
     description: "Developed a full-featured SMM Panel for a client now earning $200+/mo through social media engagement services. The MERN-stack platform features a clean admin dashboard, order management, secure JWT authentication, funds & payment handling, and real-time order tracking. Fully responsive design ensures usability across devices.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
     image: smmImage,
-    link: "https://github.com/Mohsiniqbalbhatti/smm"
+    link: "#",
+    github: "https://github.com/Mohsiniqbalbhatti/smm"
   }
 ];
 
