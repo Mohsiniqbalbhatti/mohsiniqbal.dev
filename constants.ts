@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     id: 2,
     title: "MOFA Attestation Services",
     description: "Developed a high-performance, SEO-friendly website for a professional document attestation company. Built a server-side rendered (SSR) application using Next.js with a fast, intuitive user journey and multi-step 'Get Quote' form. Achieves excellent performance scores and ranks well on search engines.",
-    tech: ["Next.js", "React", "Tailwind CSS", "SSR", "SEO"],
+    tech: ["Next.js", "React", "Tailwind CSS", "Email.JS", "SSR", "SEO"],
     image: mofaImage,
     link: "https://mofaapostille.com/",
     github: "#"
